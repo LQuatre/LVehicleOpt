@@ -22,7 +22,3 @@ client_scripts {
     'RageUI/menu/windows/*.lua',
 	'client/*.lua'
 }
-
-server_scripts {
-	'server/*.lua'
-}
