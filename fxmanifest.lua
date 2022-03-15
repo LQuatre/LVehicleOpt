@@ -11,7 +11,7 @@ shared_scripts {
 }
 
 client_scripts {
-	'RageUI/RMenu.lua',
+    'RageUI/RMenu.lua',
     'RageUI/menu/RageUI.lua',
     'RageUI/menu/Menu.lua',
     'RageUI/menu/MenuController.lua',
@@ -20,5 +20,5 @@ client_scripts {
     'RageUI/menu/items/*.lua',
     'RageUI/menu/panels/*.lua',
     'RageUI/menu/windows/*.lua',
-	'client/*.lua'
+    'client/*.lua'
 }
