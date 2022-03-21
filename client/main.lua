@@ -62,7 +62,7 @@ RegisterCommand("OpenVehMainMenu", function()
     local ped = PlayerPedId()
     local vehicle = GetVehiclePedIsUsing(ped)
 
-    local InVehicule = IsVehicleSeatFree(vehicle, 1)
+    local InVehicule = IsPedSittingInAnyVehicle(ped)
 
     if InVehicule then 
         OpenVehMainMenuInVehicule()
@@ -88,7 +88,7 @@ function OpenVehMainMenuInVehicule()
                 local ped = PlayerPedId()
                 local vehicle = GetVehiclePedIsUsing(ped)
 
-                local InVehicule = IsVehicleSeatFree(vehicle, 1)
+                local InVehicule = IsPedSittingInAnyVehicle(ped)
 
                 if InVehicule then
 
